@@ -96,7 +96,7 @@ function gossiptexttowords() -- Get the gossip, and make array/list with the wor
 	GossipText = GetGossipText()
 	gtarray = {}
 	for w in GossipText:gmatch("%S+") do
-		w:gsub('%.', '') -- remove the extra dots from the numbers
+		w = w:gsub('%.', '') -- remove the extra dots from the numbers
 		table.insert(gtarray, w)
 	end
 end
