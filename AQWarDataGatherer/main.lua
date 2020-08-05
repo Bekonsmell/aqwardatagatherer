@@ -62,7 +62,7 @@ h_date = date("%y-%m-%d %H:%M")
 a_data = "No data for Alliance side, or the data is incomplete, please speak to " .. alliance_npc_name .. "!"
 h_data = "No data for Horde side, or the data is incomplete, please speak to " .. horde_npc_name .. "!"
 
-SLASH_AQWARGOSSIP1 = "/aqwargossip"
+
 SLASH_AQWARGOSSIP1 = "/aqwar"
 SlashCmdList["AQWARGOSSIP"] = function(msg)
 
