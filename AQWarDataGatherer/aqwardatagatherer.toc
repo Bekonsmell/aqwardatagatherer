@@ -1,0 +1,5 @@
+## Title: AQ War Data Gatherer
+## Author: Bekonsmell
+## Version: 0.5
+
+main.lua
